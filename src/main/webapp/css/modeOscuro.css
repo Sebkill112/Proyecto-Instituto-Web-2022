@@ -1,0 +1,28 @@
+
+/*============================= MODO OSCURO =============================*/
+/*=============== BASE ===============*/
+body {
+   background-color: var(--body-color); 
+  transition: .3s; /* For animation dark mode */
+}
+
+/*=============== THEME ===============*/
+.change-theme{
+  color:#fff;
+  cursor: pointer;
+}
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --title-color: hsl(228,8%,95%);
+  --text-color: hsl(228,8%,70%);
+  --body-color:  hsl(228,12%,8%) ;
+}
+
+/*============================= FIN MODO OSCURO =============================*/
+
+
+
+
+
+
